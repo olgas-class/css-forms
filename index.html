@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <form action="" method="">
+
+    <div class="mb-10">
+      <label for="username">Nome utente</label>
+      <input aria-label="username" id="username" type="text" placeholder="Nome utente" required>
+    </div>
+
+    <div class="mb-10">
+      <label for="email">User email</label>
+      <input type="email" id="email" placeholder="pippo@mymail.com">
+    </div>
+
+    <div class="mb-10">
+      <label for="password">Password</label>
+      <input type="password" id="password">
+    </div>
+    
+    <div class="mb-10">
+      <label for="age">Età</label>
+      <input type="number" id="age">
+    </div>
+
+    <div class="mb-10">
+      <label for="age-interval">Fascia d'età</label>
+      <select id="age-interval">
+        <option value="minorenne">minorenne</option>
+        <option value="magiorenne">magiorenne</option>
+        <option value="over 65">over 65</option>
+      </select>
+    </div>
+
+    <div class="mb-10">
+      <label for="monthly">Pay monthly</label>
+      <input name="plan" type="radio" id="monthly">
+
+      <label for="annualy">Pay annualy</label>
+      <input name="plan" type="radio" id="annualy">
+    </div>
+
+    <div class="mb-10">
+      <h3>Quali animali ti piacciono</h3>
+      <label for="cat">Gatto</label>
+      <input type="checkbox" name="animal" id="cat">
+
+      <label for="dog">Cane</label>
+      <input type="checkbox" name="animal" id="dog">
+
+      <label for="bee">Ape</label>
+      <input type="checkbox" name="animal" id="bee">
+    </div>
+
+    <div class="mb-10">
+      <label for="birth">Seleziona la tua data di nascita</label>
+      <input type="date" id="birth">
+    </div>
+
+    <button type="submit">Invia</button>
+
+  </form>
+  
+</body>
+</html>
